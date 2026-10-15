@@ -255,7 +255,7 @@ docker exec hadoop-master hdfs dfs -cat /homework5/output_task2/part-r-00000
 
 从日志可以看到，Task2 读取了 Task1 输出的 `547` 条记录，最终输出 `3` 条指数统计结果，作业成功完成。对照原始数据检查后，三个指数的统计结果符合集合运算关系，例如每一行均满足“交集 + A 独有 + B 独有 = 并集”。
 
-**Task2 的 YARN Web 页面运行成功截图（待补充）：**
+**Task2 的 YARN Web 页面运行成功截图：**
 
 ![Task2 运行成功截图](pictures/task2.png)
 
